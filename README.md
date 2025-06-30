@@ -9,6 +9,7 @@ Started learning Node.js.
 - Node module system
 - Exports in different ways
 - Path module
+- File System Module 
 
 ---
 
@@ -19,5 +20,6 @@ const conclude = {
     newFile: 'fs.writeFileSync',
     readFile: 'fs.readFileSync',
     updateFile: 'fs.appendFileSync',
-    renameFile: 'fs.renameSync'
+    renameFile: 'fs.renameSync',
+    deleteFile:'fs.unlinkSync'
 };
